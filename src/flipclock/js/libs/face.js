@@ -207,7 +207,7 @@
 		 */
 
 		decrement: function() {
-			if(this.factory.time.getTimeSeconds() == 0) {
+			if(this.factory.time.getTimeSeconds() <= 0) {
 	        	this.factory.stop()
 			}
 			else {
